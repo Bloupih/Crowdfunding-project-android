@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#000000">
+    
+    <Button 
+        android:id="@+id/btAccueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accueil"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+    
+    <Button 
+        android:id="@+id/btProjets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projets"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+    
+    <Button 
+        android:id="@+id/btCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catégories"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sdMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:content="@+id/content"
+    android:handle="@+id/btMenu"
+    android:orientation="vertical">
+
+    <Button 
+	    android:id="@+id/btMenu"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Menu" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000000"
+        android:clickable="true"  >
+
+        <Button
+            android:id="@+id/btAccueil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="10dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="10dp"
+            android:textColor="#FFFFFF" />
+        
+    </LinearLayout>
+    
+</SlidingDrawer>
