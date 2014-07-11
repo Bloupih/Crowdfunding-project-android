@@ -15,4 +15,4 @@ IT School project in JavaEE
 
 
 ## Developed by 
-* Thomas Brodusch, Johann Morales & Jean-FranÃ§ois Kervella, IT students at Supinfo Paris (France).
+* Thomas Brodusch, Johann Morales & Jean-Francois Kervella, IT students at Supinfo Paris (France).
